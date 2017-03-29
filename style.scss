@@ -1,0 +1,315 @@
+body{
+  background: #f2f8ff;
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  margin: 0;
+  font-size: 48px;
+}
+
+p{
+  margin: 0;
+}
+
+.conteiner{
+  width: 1200px;
+  margin: auto;
+}
+
+.menu{
+  background: #373c3f;
+  height: 80px;
+
+    ul{
+      padding-top: 30px;
+    }
+
+    li{
+      color: #FFFFFF;
+      font-weight: 600;
+      display: inline;
+      margin-top: 15px;
+      margin-left: 15px;
+    }
+}
+
+.baner{
+  background: lightblue;
+  height: 500px;
+    h1{
+      color:#FFFFFF;
+      margin-left: 80px;
+      font-weight: 600;
+      padding-top: 100px;
+    }
+
+    p{
+      font-size: 34px;
+      color: #FFFFFF;
+      padding-top: 25px;
+      margin-left: 80px;
+    }
+}
+
+.first-div{
+  background: #373c3f;
+  height: 120px;
+  width: 1000px;
+  float: left;
+
+    p{
+      color: #FFFFFF;
+      font-size: 24px;
+      text-align: center;
+      padding-top: 40px;
+    }
+}
+
+.second-div{
+  float: left;
+  width: 200px;
+  background: #deadff;
+  height: 80px;
+  color:#FFFFFF;
+  text-align: center;
+  padding-top: 40px;
+  font-weight: 800;
+  font-size: 36px;
+}
+
+.slider-2{
+  div{
+    float: left;
+  }
+
+  img{
+    height: 400px;
+    width: 400px;
+  }
+}
+
+.cub-second{
+  width: 400px;
+  height: 240px;
+  background: #57b4f2;
+  color:#FFFFFF;
+  text-align: center;
+  font-weight: 800;
+  padding-top: 160px;
+  font-size: 36px;
+}
+
+.slider-3{
+  background: #f2f8ff;
+}
+
+.title{
+  background: #f2f8ff;
+  width: 1100px;
+  color: #155096;
+  padding: 50px;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.slider-3-div{
+  background: #f2f8ff;
+  color:#4d4e4f;
+  width: 560px;
+  line-height: 1.5;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  font-size: 18px;
+  float: left;
+}
+
+.style-block-menu{
+  background: #373c3f;
+}
+
+.style-block-baner{
+  background: lightblue;
+}
+
+.style-bl-1{
+  background: #373c3f;
+  height: 120px;
+}
+
+.style-bl-2{
+  background: #57b4f2;
+  height: 400px;
+}
+
+
+@media screen and (min-width:980px) and (max-width:1199px) {
+
+  .conteiner{
+    width: 980px;
+  }
+
+  .first-div{
+    background: #373c3f;
+    height: 120px;
+    width: 860px;
+    float: left;
+  }
+
+  .second-div{
+    float: left;
+    width: 120px;
+    height: 80px;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 800;
+    font-size: 36px;
+  }
+
+  .slider-2{
+    div{
+      float: left;
+      margin: auto;
+    }
+
+    img{
+      height: 325px;
+      width: 325px;
+    }
+  }
+
+  .cub-second{
+    width: 325px;
+    height: 200px;
+    background: #57b4f2;
+    color:#FFFFFF;
+    text-align: center;
+    font-weight: 800;
+    padding-top: 125px;
+    font-size: 36px;
+  }
+
+  .title{
+    background: #f2f8ff;
+    width: 900px;
+    color: #155096;
+    padding: 40px;
+    font-size: 40px;
+    font-weight: 800;
+  }
+
+  .slider-3-div{
+    background: #f2f8ff;
+    color:#4d4e4f;
+    width: 450px;
+    line-height: 1.5;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    font-size: 16px;
+    float: left;
+  }
+
+  .style-bl-1{
+    background: #373c3f;
+    height: 120px;
+  }
+
+  .style-bl-2{
+    background: #57b4f2;
+    height: 325px;
+  }
+
+}
+
+@media screen and (min-width:320px) and (max-width:980px) {
+
+  .conteiner{
+    width: 100%;
+  }
+
+  .first-div{
+    background: #373c3f;
+    height: 100px;
+    width: 70%;
+    float: left;
+
+      p{
+            font-size: 18px;
+      }
+  }
+
+  .second-div{
+    float: left;
+    width: 30%;
+    height: 80px;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 800;
+    font-size: 36px;
+  }
+
+  .slider-2{
+    div{
+      float: left;
+      margin: auto;
+    }
+
+    img{
+      height: 800px;
+      width: 100%;
+    }
+  }
+
+  .cub-second{
+    width: 100%;
+    height: 100%;
+    background: #57b4f2;
+    color:#FFFFFF;
+    text-align: center;
+    font-weight: 800;
+    padding-top: 200px;
+    font-size: 36px;
+  }
+
+  .title{
+    background: #f2f8ff;
+    width: 100%;
+    color: #155096;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 0;
+  }
+
+  #id-title{
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-bottom: 50px;
+  }
+
+  .slider-3-div{
+    background: #f2f8ff;
+    color:#4d4e4f;
+    width: 80%;
+    line-height: 1.5;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 40px;
+    font-size: 16px;
+    float: left;
+  }
+
+  .style-bl-1{
+    background: #373c3f;
+    height: 120px;
+  }
+
+  .style-bl-2{
+    background: #57b4f2;
+    height: 325px;
+  }
+
+}
